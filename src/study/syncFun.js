@@ -9,14 +9,30 @@ var createPromise = ( a ) => {
   });
 }
 
+ 
 
+var  f =   async  function ( arg ) {
+ 
+  var result   =   await   createPromise( 11 );
 
-var  f =   async  function () {
-  var t  =   await   createPromise( 222 );
-  console.log( t );
-  return  t ;
+  console.log(" result = " , result )
+
+   var  result2 =    await  createPromise( " 22 result "+ result )
+ 	
+ 	console.log( 'arg runt' ,result2)
+
+ 	return  result2
 };
 
+ 
+var  ret  = f( console.log );
+
+ret.then( (a )=>{
+	console.log( "all  run result = " , a )
+})
+
+
+console.log(  "async fun return = " ,  ret );
 
 
 

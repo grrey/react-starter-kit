@@ -7,7 +7,8 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-import  x from "./study/syncFun";
+  import  x from "./study/syncFun";
+  import  C  from "./study/class";
 
 
 
