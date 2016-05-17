@@ -23,3 +23,6 @@ require.extensions['.svg'] = noop;
 require.extensions['.jpg'] = noop;
 require.extensions['.jpeg'] = noop;
 require.extensions['.gif'] = noop;
+
+
+console.log( Promise )

@@ -7,6 +7,10 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
+import  x from "./study/syncFun";
+
+
+
 import 'babel-polyfill';
 import ReactDOM from 'react-dom';
 import FastClick from 'fastclick';
@@ -122,3 +126,8 @@ if (['complete', 'loaded', 'interactive'].includes(document.readyState) && docum
 } else {
   document.addEventListener('DOMContentLoaded', run, false);
 }
+
+
+
+
+
