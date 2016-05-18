@@ -18,6 +18,9 @@ import register from './register';
 import content from './content';
 import error from './error';
 
+
+console.log( "home router = " , home);
+
 export default {
 
   path: '/',

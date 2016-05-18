@@ -79,6 +79,8 @@ function render(container, state, component) {
   });
 }
 
+console.log( "routes = " , routes ) ;
+
 function run() {
   let currentLocation = null;
   const container = document.getElementById('app');

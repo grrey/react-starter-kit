@@ -53,14 +53,18 @@ class App extends Component {
   render() {
     return !this.props.error ? (
       <div>
-        <Header />
+        <Header /> 
         {this.props.children}
         <Feedback />
         <Footer />
       </div>
     ) : this.props.children;
   }
+  
+} 
 
-}
+console.log( 'app conpoent = ' ,  new  App() );
+console.log( 'react = ' , React ) ;
+console.log( 'require = ' , require ) ;
 
 export default App;
